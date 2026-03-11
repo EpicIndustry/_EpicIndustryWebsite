@@ -1,279 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epic Industry | IT Solutions &amp; Services</title>
-    <meta name="description" content="Epic Industry delivers tailored IT solutions and services to enterprises worldwide. From infrastructure to blockchain, we solve complex technology challenges.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epic Industry</title>
+    <meta name="author" content="Epic Industry">
+    <meta name="description" content="Our digital footprint, much like our approach, is intentional and exclusive. We do not seek or entertain inbound engagements.">
+    <meta property="og:url" content="https://epicindustry.com/">
+    <meta property="og:site_name" content="Epic Industry">
+    <meta property="og:title" content="Epic Industry">
+    <meta property="og:description" content="Our digital footprint, much like our approach, is intentional and exclusive. We do not seek or entertain inbound engagements.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Epic Industry">
+    <meta name="twitter:description" content="Our digital footprint, much like our approach, is intentional and exclusive. We do not seek or entertain inbound engagements.">
+    <meta name="twitter:image" content="logo.jpg">
+    <meta name="twitter:image:alt" content="Epic Industry">
+    <meta name="theme-color" content="#000000">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="nav-logo">
-                <img src="logo.jpg" alt="Epic Industry" height="45">
-            </a>
-            <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#clients">Clients</a></li>
-                <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero -->
-    <header class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h1>Technology Solutions<br>That Move Business Forward</h1>
-            <p class="hero-sub">We partner with organizations to design, implement, and manage the IT infrastructure and systems that power growth.</p>
-            <div class="hero-actions">
-                <a href="#services" class="btn btn-primary">Our Services</a>
-                <a href="#contact" class="btn btn-outline">Start a Conversation</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>Who We Are</h2>
-                <div class="accent-bar"></div>
-            </div>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p class="lead">Since 1997, Epic Industry has helped hundreds of companies solve complex technology and business challenges across six continents.</p>
-                    <p>We are a hands-on IT solutions firm. We don't just advise &mdash; we build, implement, and manage. Whether a company needs to modernize infrastructure, secure critical data, integrate blockchain into operations, or staff an entire development team, we assemble the right people, tools, and strategy to deliver results.</p>
-                    <p>Our work spans satellite communications, enterprise software, cybersecurity, blockchain platforms, cloud architecture, and more. We've operated in over 97 countries and across industries from defense and aerospace to gaming and healthcare.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <span class="stat-number">25+</span>
-                        <span class="stat-label">Years in Operation</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">97+</span>
-                        <span class="stat-label">Countries Served</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">6</span>
-                        <span class="stat-label">Continents</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">100s</span>
-                        <span class="stat-label">Companies Helped</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services -->
-    <section class="section services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2>What We Do</h2>
-                <div class="accent-bar"></div>
-                <p class="section-subtitle">We deliver end-to-end IT solutions tailored to your organization's needs. No bloated proposals, no unnecessary complexity &mdash; just the right technology, implemented right.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 8h2m2 0h2"/><path d="M7 11h6"/></svg>
-                    </div>
-                    <h3>IT Infrastructure &amp; Cloud</h3>
-                    <p>Design, migration, and management of cloud environments, networks, and enterprise infrastructure. We build the foundation your business runs on.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-                    </div>
-                    <h3>Cybersecurity &amp; Data Protection</h3>
-                    <p>Zero-trust architectures, data rights management, compliance frameworks, and security assessments. We protect what matters most.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
-                    </div>
-                    <h3>Blockchain &amp; Distributed Systems</h3>
-                    <p>Enterprise blockchain platforms, smart contracts, supply chain solutions, and decentralized applications. Real-world blockchain for real-world problems.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-                    </div>
-                    <h3>Managed Teams &amp; Staffing</h3>
-                    <p>Need a full development team, a specialized engineer, or interim IT leadership? We provide embedded teams and professionals that integrate with your organization.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-                    </div>
-                    <h3>Custom Solutions &amp; Integration</h3>
-                    <p>When off-the-shelf doesn't cut it, we design and build custom software, integrations, and platforms tailored to your specific operational needs.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>
-                    </div>
-                    <h3>Business Technology Strategy</h3>
-                    <p>Technology roadmaps, system assessments, vendor evaluation, and digital transformation planning. We align IT with where your business is headed.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How We Work -->
-    <section class="section how-we-work">
-        <div class="container">
-            <div class="section-header">
-                <h2>How We Work</h2>
-                <div class="accent-bar"></div>
-            </div>
-            <div class="steps-grid">
-                <div class="step">
-                    <div class="step-number">01</div>
-                    <h3>Assess</h3>
-                    <p>We review your current operations, systems, and goals to understand exactly where you are and where you need to be.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">02</div>
-                    <h3>Design</h3>
-                    <p>We architect a solution that fits &mdash; the right technology, the right scale, and the right approach for your organization.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">03</div>
-                    <h3>Implement</h3>
-                    <p>Our teams build, configure, migrate, and deploy. We handle the complexity so you can focus on your business.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">04</div>
-                    <h3>Support</h3>
-                    <p>We stay engaged. Ongoing management, optimization, and support ensure your investment keeps delivering value.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Clients -->
-    <section class="section clients" id="clients">
-        <div class="container">
-            <div class="section-header">
-                <h2>Organizations We've Worked With</h2>
-                <div class="accent-bar"></div>
-                <p class="section-subtitle">Over two decades of delivering technology solutions across industries and around the world.</p>
-            </div>
-            <div class="client-grid">
-                <div class="client-item"><span>Boeing</span></div>
-                <div class="client-item"><span>United Nations</span></div>
-                <div class="client-item"><span>CBS</span></div>
-                <div class="client-item"><span>EA / Visceral Games</span></div>
-                <div class="client-item"><span>Bethesda Softworks</span></div>
-                <div class="client-item"><span>BioWare</span></div>
-                <div class="client-item"><span>PopCap Games</span></div>
-                <div class="client-item"><span>HBO</span></div>
-                <div class="client-item"><span>Paramount Pictures</span></div>
-                <div class="client-item"><span>Loral Space &amp; Communications</span></div>
-                <div class="client-item"><span>First Pacific Company</span></div>
-                <div class="client-item"><span>ProtoStar Ltd</span></div>
-                <div class="client-item"><span>Activision Blizzard</span></div>
-                <div class="client-item"><span>Konami</span></div>
-                <div class="client-item"><span>Amazon Web Services</span></div>
-                <div class="client-item"><span>Blue Cross Blue Shield</span></div>
-                <div class="client-item"><span>SP Capital Management</span></div>
-                <div class="client-item"><span>BlackLake Security</span></div>
-                <div class="client-item"><span>SinoFresh Healthcare</span></div>
-                <div class="client-item"><span>Meetrix Communications</span></div>
-            </div>
-            <div class="client-industries">
-                <h3>Industries Served</h3>
-                <div class="industry-tags">
-                    <span class="tag">Aerospace &amp; Defense</span>
-                    <span class="tag">Gaming &amp; Entertainment</span>
-                    <span class="tag">Healthcare</span>
-                    <span class="tag">Financial Services</span>
-                    <span class="tag">Telecommunications</span>
-                    <span class="tag">Government</span>
-                    <span class="tag">Cybersecurity</span>
-                    <span class="tag">Real Estate</span>
-                    <span class="tag">Retail &amp; Distribution</span>
-                    <span class="tag">Energy &amp; Natural Resources</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Let's Talk</h2>
-                <div class="accent-bar"></div>
-                <p class="section-subtitle">Have a technology challenge? We'd like to hear about it.</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h3>Email</h3>
-                        <a href="mailto:info@epicindustry.com">info@epicindustry.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Location</h3>
-                        <p>Jacksonville, FL</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-logo">
-                <img src="logo.jpg" alt="Epic Industry" height="35">
-            </div>
-            <p class="footer-copy">&copy; 2026 Epic Industry. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Mobile nav toggle
-        function toggleNav() {
-            document.getElementById('navLinks').classList.toggle('active');
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                var target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    document.getElementById('navLinks').classList.remove('active');
-                }
-            });
-        });
-    </script>
+        body {
+            background-color: #ffffff;
+            font-family: 'Lusitana', Georgia, serif;
+            font-size: 16px;
+            color: #1b1b1b;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+        }
 
+        .page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header / Nav */
+        .header {
+            width: 100%;
+            padding: 8px;
+        }
+
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo-container a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .logo-container img {
+            height: 75px;
+            max-width: 100%;
+            width: auto;
+            vertical-align: middle;
+            object-fit: contain;
+        }
+
+        /* Hero content */
+        .hero {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+
+        .hero-inner {
+            text-align: center;
+            max-width: 750px;
+            width: 100%;
+        }
+
+        .tagline {
+            font-family: 'Lato', arial, sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            color: #1b1b1b;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .tagline a {
+            color: #8a7400;
+            font-weight: inherit;
+            text-decoration: none;
+            cursor: pointer;
+            border: 0;
+        }
+
+        .tagline a:hover {
+            color: #544600;
+        }
+
+        .tagline a:active {
+            color: #3a3000;
+        }
+
+        /* Divider / Footer */
+        .divider-section {
+            padding: 32px 0;
+        }
+
+        .divider-container {
+            max-width: 984px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .divider-container hr {
+            border: 0;
+            border-bottom: 1px solid #e2e2e2;
+            width: 100%;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (min-width: 768px) {
+            .tagline { font-size: 22px; }
+        }
+
+        @media (min-width: 1024px) {
+            .hero { min-height: 85vh; }
+            .tagline { font-size: 22px; }
+            .hero-inner { width: 75%; padding: 0 32px; }
+            .divider-container { max-width: 984px; }
+        }
+
+        @media (min-width: 1280px) {
+            .divider-container { max-width: 1160px; }
+        }
+
+        @media (min-width: 1536px) {
+            .tagline { font-size: 24px; }
+            .divider-container { max-width: 1280px; }
+        }
+
+        @media (max-width: 767px) {
+            .logo-container img {
+                height: 75px;
+                max-width: 224px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="logo-container">
+                <a href="/">
+                    <img src="logo.jpg" alt="Epic Industry">
+                </a>
+            </div>
+        </header>
+
+        <main class="hero">
+            <div class="hero-inner">
+                <div class="tagline">
+                    <p>Our digital footprint, much like our approach, is intentional and exclusive.</p>
+                    <p><br></p>
+                    <p>We do not seek or entertain inbound engagements.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="divider-section">
+            <div class="divider-container">
+                <hr aria-hidden="true" role="separator">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
